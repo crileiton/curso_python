@@ -1,17 +1,14 @@
 # Ejercicio No. 3
 import sys
-if len(sys.argv) == 3:
-    filas = int(sys.argv[1])
-    columnas = int(sys.argv[2])
-
-    if ( (filas > 0 and filas < 10) and (columnas > 0 and columnas < 10) ):
-        for fila in range(filas):
-            print("")
-            for columna in range(columnas):
-                print("*", end='')
+# Es 2 en la sgte linea porque el nombre del archivo cuenta tambien
+if len(sys.argv) == 2:
+    numero = int(sys.argv[1])
+    if (numero > 0):
+        lista_numeros = [numero]
+        print(lista_numeros)
     else:
-        print("Filas o columnas incorrectas.")
-        print("Ejemplo: tabla.py [1-9] [1-9 ]")
+        print("El número no es positivo")
+        print("Ejemplo: descomposicion.py [número_entero_positivo]")
 else:
     print("Error argumentos incorrectos.")
-    print("Ejemplo: tabla.py [1-9] [1-9 ]")
+    print("Ejemplo: descomposicion.py [número_entero_positivo]")
