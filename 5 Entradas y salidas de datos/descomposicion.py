@@ -1,4 +1,4 @@
-# Ejercicio No. 2
+# Ejercicio No. 3
 import sys
 if len(sys.argv) == 3:
     filas = int(sys.argv[1])
