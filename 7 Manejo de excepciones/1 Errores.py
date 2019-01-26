@@ -63,10 +63,10 @@ print("{}/{}={}".format(n, m, n / m))
 n = float(input("Introduce un número:\n"))
 m = 4
 
-print("{} / {}={}".format(n, m, n / m))
+print("{} / {} = {}".format(n, m, n / m))
 
 # Si ingresamos un numero entero o flotante estaria bien, pero si el usuario ingresa un texto? ejemplo: aaa
 # NO se puede convertir a flotante una cadena de texto con 3 aaa, No hay una forma magica para asegurarnos de que el
 #usuario ingrese numeros, por eso salta el error
 # ¿Existe alguna otra solución?
-# SI creando estados de excepción que sigan ejecutandose aunque ocurra un error 
+# SI, creando estados de excepción que sigan ejecutandose aunque ocurra un error 
