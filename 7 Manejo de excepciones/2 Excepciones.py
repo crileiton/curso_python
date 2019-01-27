@@ -1,7 +1,7 @@
 # Una excepción es un bloque de codigo excepcional que nos permitira continuar con la ejecución en caso de que ocurra un error
 # volviendo al ejemplo del ejercicio anterior tenemos el problema de que cuando el usuario no introduzca una cedena
 # que fuera un número si no un texto, fallaba al hacer la conversión.
-"""try:    
+try:    
     n = float(input("Introduce un número:\n"))
     m = 4
     print("{} / {} = {}".format(n, m, n / m))
@@ -31,7 +31,6 @@ while(True):
     else:
         print("Todo ha funcionado correctamente")
         break # Importante romper la iteración si todo ha salido bien
-"""
 # Todavia se permite una sentencia extra llamada Finaly o finalmente y se ejecuta siempre al final del try...asi
 while(True):
     try:    
